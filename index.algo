@@ -1,0 +1,34 @@
+The length of the sentence
+BEGIN ALGORITHME 
+string = "the number of characters";  
+count = 1;  
+i:=0; 
+for i in string(0, len(string)):  
+    if(string[i] != ' '):  
+        count = count + 1;  
+    
+end ALGORITHME
+The number of words
+BEGIN ALGORITHME
+string:="assuming that the words are separated by a single space";
+i:=0;
+ words_count:=1;
+Repeat Until i<=sentence_length
+            check if character at i position is space(' ')
+            			then words_count=words_count+1;
+         i=i+1
+ words_count=words_count+1;
+ end ALGORITHME
+ The number of vowels in the sentence
+ BEGIN ALGORITHME
+ string := "assuming that the words are separated by a single space ";
+i:=0;
+words_count:=1;
+if i in  string == ('a', 'e', 'i', 'o', 'u');
+print words_count =words_count+1;
+else
+words_count=0;
+print words_count ;
+end ALGORITHME
+
+
